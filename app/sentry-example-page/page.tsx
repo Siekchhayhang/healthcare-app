@@ -1,7 +1,7 @@
 "use client";
 
-import * as Sentry from "@sentry/nextjs";
 import Head from "next/head";
+import * as Sentry from "@sentry/nextjs";
 
 export default function Page() {
   return (
@@ -59,7 +59,7 @@ export default function Page() {
                 if (!res.ok) {
                   throw new Error("Sentry Example Frontend Error");
                 }
-              }
+              },
             );
           }}
         >
@@ -68,7 +68,7 @@ export default function Page() {
 
         <p>
           Next, look for the error on the{" "}
-          <a href="https://js-mastery-2y.sentry.io/issues/?project=4508628816166992">
+          <a href="https://jjame.sentry.io/issues/?project=4508629764800592">
             Issues Page
           </a>
           .
